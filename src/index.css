@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#efefefef; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#instagram-search {
+  
+  border:none;
+  width: 280px;
+  height: 33.5px;
+  border-radius: 8px;
+  color: #536471;
+  background-color: #f9f6f2;
+  font-size: 15px;
+}
+.instagram-header{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom:1px solid #dadce0;
+  background-color: #ffffff;
+}
+
+
+.left-section-header{
+  width:20%;
+}
+.middle-section-header{
+  width:20%;
+}
+
+.right-section-header{
+  width:40%;
+}
+.insta-stories{
+  margin:0 auto;
+  height: 100px;
+  width:600px;
+  border: 1px solid #dadce0;
+  background-color: #ffffff;
+}
+
+img{
+  border-radius: 50%;
 }
