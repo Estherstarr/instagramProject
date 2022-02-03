@@ -1,9 +1,11 @@
 import React from 'react';
+import logo from "../images/instagramlogo.png";
+
 
 const LeftSectionHeader = () => {
   return <div className='left-section-header'>
-      <h2>Instagram</h2>
-  </div>;
+      <img  className = "logo" src ={logo} alt="instagram-logo" />
+      </div>;
 };
 
 export default LeftSectionHeader;
